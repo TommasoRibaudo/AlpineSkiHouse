@@ -1,10 +1,4 @@
 # ASP.NET Core (.NET Framework)
-- task: KubernetesManifest@0
-  inputs:
-    action: 'deploy'
-    kubernetesServiceConnection: 'enviroment test-KubTest-default-1625188985963'
-    namespace: 'kub-test-1'
-    manifests: '.config/dotnet-tools.json'
 # Build and test ASP.NET Core projects targeting the full .NET Framework.
 # Add steps that publish symbols, save build artifacts, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
